@@ -12,6 +12,106 @@
   <div class="title"><h1></h1></div>  
   <div class="gallery_img" id="cont-princ"></div>
 
+  <div class="container">
+    <div class="search">
+      <h2>Filtrar</h2>
+      <div>
+        <input type="radio" name="animal" value="todos">
+        <label for="todos">Todos</label>
+      </div>
+
+      <h2>Clasificación</h2>
+      <div>
+        <input type="radio" name="animal" value="invertebrado">
+        <label for="invertebrados">Invertebrados</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="vertebrado">
+        <label for="vertebrados">Vertebrados</label>
+      </div>
+      <h2>Clase</h2>
+      <div>
+        <input type="radio" name="animal" value="mamífero">
+        <label for="mamifero">Mamífero</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="reptil">
+        <label for="reptiles">Reptiles</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="anfibio">
+        <label for="anfibios">Anfibios</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="aves">
+        <label for="aves">Aves</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="pez">
+        <label for="peces">Peces</label>
+      </div>
+
+      <h2>Tipo de Sangre</h2>
+      <div>
+        <input type="radio" name="animal" value="fría">
+        <label for="fria">Fría</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="caliente">
+        <label for="caliente">Caliente</label>
+      </div>
+
+      <h2>Dieta</h2>
+      <div>
+        <input type="radio" name="animal" value="carnívoro">
+        <label for="carnívoro">Carnívoro</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="omnívoro">
+        <label for="omnívoro">Omnívoro</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="herbívoro">
+        <label for="herbívoro">Herbívoro</label>
+      </div>
+
+      <h2>Reproducción</h2>
+      <div>
+        <input type="radio" name="animal" value="ovíparo">
+        <label for="oviparo">Ovíparo</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="vivíparo">
+        <label for="viviparo">Vivíparo</label>
+      </div>
+
+      <h2>Hábitat</h2>
+      <div>
+        <input type="radio" name="animal" value="tierra">
+        <label for="tierra">Tierra</label>
+      </div>
+      <div>
+        <input type="radio" name="animal" value="agua">
+        <label for="agua">Agua</label>
+      </div>
+    </div>
+
+    <ul class="gallery" id="gallery"></ul>
+  </div>
+
+
+  <div class="card hidden">
+    <div class="modal">
+      <div class="tab">
+        <button id="btn-close">X</button>
+      </div>
+      <div class="animal-info">
+        <div class="info1"></div>
+        <div class="info2"></div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 <script src="main.js"></script>
