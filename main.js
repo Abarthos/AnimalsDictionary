@@ -1,3 +1,4 @@
+
 /* Title */
 let title = document.querySelector('h1');
 let h1 = document.createElement('h1');
@@ -11,6 +12,7 @@ animal = new Array();
 /* Vertebrate Animals */
   /* amphibian */
 animal[0] = ["./images/amphibian/american-bullfrogs_img.png"];
+
 animal[1] = ["./images/amphibian/axolotls_img.png"];
 animal[2] = ["./images/amphibian/spotted-salamander_img.png"];
   
@@ -45,3 +47,6 @@ for(let i = 0; i < animal.length; i++) {
   creaImg.setAttribute('src', animal[i])
   principal.appendChild(creaImg);
 } 
+
+
+
